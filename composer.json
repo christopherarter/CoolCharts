@@ -1,0 +1,33 @@
+{
+    "name": "christopherarter/cool-charts",
+    "description": "This is the cool-charts project.",
+    "version": "0.1.0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Arter",
+            "email": "chris@arter.dev"
+        }
+    ],
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "ChristopherArter\\CoolCharts\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "pestphp/pest": "^2.10",
+        "symfony/var-dumper": "^6.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "pest --colors"
+    }
+}
