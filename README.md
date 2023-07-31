@@ -1,6 +1,6 @@
 PHP Cool Charts Package
 =======================
-![Tests](https://github.com/christopherarter/cool-charts/actions/workflows/ci.yml/badge.svg)
+![Tests](https://github.com/christopherarter/coolcharts/actions/workflows/ci.yml/badge.svg)
 
 This PHP package provides a flexible and convenient way to transform your data into different chart formats. It provides a fluent interface to build charts and supports different chart libraries, such as ChartJS and HighCharts.
 
