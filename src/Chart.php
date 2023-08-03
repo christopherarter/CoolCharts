@@ -2,10 +2,12 @@
 
 namespace ChristopherArter\CoolCharts;
 
+use ChristopherArter\CoolCharts\Config\Builder;
+
 class Chart
 {
-    public static function make(): ChartBuilder
+    public static function make(): Builder
     {
-        return new ChartBuilder();
+        return new Builder();
     }
 }
