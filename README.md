@@ -1,4 +1,4 @@
-PHP Cool Charts Package
+Hey, cool charts.
 =======================
 ![Tests](https://github.com/christopherarter/coolcharts/actions/workflows/ci.yml/badge.svg)
 
